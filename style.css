@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media screen {
+}
+
+body {
+  background-color: #579329;
+  font-family: sofia;
+  text-align: center;
+  width: 400px;
+  height: auto;
+}
+.fondoBody img {
+  width: 400px;
+  height: 900px;
+  height: auto;
+}
+.fondoBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenedorTarjeta {
+  position: absolute;
+  background-color: rgba(245, 245, 220, 0.442);
+  box-shadow: -5px 6px 19px 0px rgba(0, 0, 0, 0.77);
+  -webkit-box-shadow: -5px 6px 19px 0px rgba(0, 0, 0, 0.77);
+  -moz-box-shadow: -5px 6px 19px 0px rgba(0, 0, 0, 0.77);
+  width: 250px;
+  height: 500px;
+}
+.contenedorTitulo {
+  margin-top: 50px;
+}
+.presentacion {
+  color: aliceblue;
+}
+.titulo {
+  font-size: 30px;
+  color: #3b5725;
+  position: sticky;
+  top: 0;
+  padding: 20px;
+  /* text-shadow: 7px 3px 0px rgba(20, 33, 22, 0.526); */
+  z-index: 101;
+}
+.flor img {
+  position: absolute;
+  top: 0;
+  width: 280px;
+  left: 60px;
+  z-index: 100;
+}
+.contenedorTarjeta2 {
+  position: absolute;
+  background-color: rgba(245, 245, 220, 0.442);
+  box-shadow: -5px 6px 19px 0px rgba(0, 0, 0, 0.77);
+  -webkit-box-shadow: -5px 6px 19px 0px rgba(0, 0, 0, 0.77);
+  -moz-box-shadow: -5px 6px 19px 0px rgba(0, 0, 0, 0.77);
+  width: 280px;
+  height: 630px;
+}
+/* .calendar img {
+  width: 200px;
+}
+.calendar img:hover {
+  width: 300px;
+} */
+.contenedorText-2 {
+  padding: 10px;
+  color: #543f04;
+}
+.hr {
+  background-color: black;
+  color: #000;
+}
+.datos {
+  display: flex;
+  margin: 10px;
+  text-align: center;
+  justify-content: center;
+}
+
+.botones img {
+  margin: 5px;
+  padding: 5px;
+  width: 50px;
+}
+.contenedorBoton img {
+  width: 40px;
+}
+.contenedorBoton button {
+  border: solid rgb(254, 214, 104) 1px;
+  border-radius: 10px;
+  background: #e0e0e000;
+  box-shadow: inset 20px 20px 60px #bebebe00, inset -20px -20px 60px #ffffffaa;
+}
+.contenedorBoton2 img {
+  width: 40px;
+  margin-top: 5px;
+}
+.contenedorBoton2 button {
+  border: solid rgb(189, 149, 39) 1px;
+  border-radius: 10px;
+  background: #e0e0e000;
+  box-shadow: inset 20px 20px 60px #bebebe00, inset -20px -20px 60px #ffffffaa;
+}
+
+.fechaLugar {
+  border-radius: 10px;
+  display: none;
+  padding: 20px;
+  background-color: rgba(3, 19, 3, 0.863);
+  position: absolute;
+}
+.fechaLugar img {
+  width: 300px;
+}
+.fechaLugar iframe {
+  width: 300px;
+  height: 300px;
+}
+.cerrar {
+  border: 0px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0);
+}
+.cruz {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+.activo {
+  display: block;
+}
+.fechaLugar2 {
+  border-radius: 10px;
+  display: none;
+  padding: 20px;
+  background-color: rgba(3, 19, 3, 0.863);
+  position: absolute;
+}
+.fechaLugar2 img {
+  width: 300px;
+}
+.fechaLugar2 iframe {
+  width: 300px;
+  height: 300px;
+}
+.cerrar2 {
+  border: 0px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0);
+}
+.cruz2 {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+.horario {
+  font-size: 35px;
+  color: aliceblue;
+}
+.active {
+  display: block;
+}
+
+.codigoVestimenta {
+  margin: 1px;
+  display: block;
+  justify-content: center;
+}
+.codigoVestimenta p {
+  font-size: 20px;
+}
+
+.whapp {
+  margin-top: 10px;
+  font-family: sofia;
+  color: black;
+  width: 200px;
+  height: 50px;
+  font-size: 15px;
+  text-decoration: none;
+  border-radius: 10px;
+  color: rgb(116, 93, 3);
+  border: solid rgb(254, 214, 104) 1px;
+}
+.whapp i {
+  font-size: 20px;
+  color: rgb(192, 174, 17);
+}
