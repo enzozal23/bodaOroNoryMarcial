@@ -7,12 +7,13 @@
 }
 
 body {
-  background-color: #579329;
+  background-color: #bce59dc3;
   font-family: sofia;
   text-align: center;
-  width: 400px;
+  width: auto;
   height: auto;
 }
+
 .fondoBody img {
   width: 400px;
   height: 900px;
