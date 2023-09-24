@@ -7,19 +7,17 @@ const contenedorDatos = document.querySelector(".fechaLugar");
 const contenedorDatos2 = document.querySelector(".fechaLugar2");
 const botonCerrar = document.querySelector(".cerrar");
 const botonCerrar2 = document.querySelector(".cerrar2");
-const musica = document.querySelector(".musica");
+const musica = document.querySelector("#musica");
 console.log(musica);
+const botonConfirmar = document.querySelector(".whapp");
+
+
+
 
 // botonCelebracion.addEventListener("click", (e) => {
 //   e.preventDefault();
 //   contenedorDatos.classList.add("activo");
 // });
-
-window.addEventListener("click", (e) => {
-  e.preventDefault();
-  musica.outerHTML =
-    '<audio src="./Maluma.mp3" autoplay="" controls="" class="musica"></audio>';
-});
 
 botonCerrar.addEventListener("click", (e) => {
   e.preventDefault();

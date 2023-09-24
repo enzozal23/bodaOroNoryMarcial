@@ -14,10 +14,10 @@ body {
   height: auto;
 }
 
-.fondoBody img {
+.fondoBody .imgfondo {
   width: 400px;
   height: 900px;
-  height: auto;
+ 
 }
 .fondoBody {
   display: flex;
@@ -30,8 +30,8 @@ body {
   box-shadow: -5px 6px 19px 0px rgba(0, 0, 0, 0.77);
   -webkit-box-shadow: -5px 6px 19px 0px rgba(0, 0, 0, 0.77);
   -moz-box-shadow: -5px 6px 19px 0px rgba(0, 0, 0, 0.77);
-  width: 260px;
-  height: 530px;
+  width: 360px;
+  height: 730px;
 }
 .contenedorTitulo {
   margin-top: 50px;
@@ -52,6 +52,7 @@ body {
   position: absolute;
   top: 0;
   width: 280px;
+
   left: 60px;
   z-index: 100;
 }
