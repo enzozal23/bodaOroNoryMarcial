@@ -7,17 +7,17 @@
 }
 
 body {
-  background-color: #bce59dc3;
-  font-family: sofia;
+  background-color: #532d0dc3;
+  font-family: lora;
   text-align: center;
   width: auto;
   height: auto;
+  color: white;
 }
 
 .fondoBody .imgfondo {
   width: 400px;
   height: 900px;
- 
 }
 .fondoBody {
   display: flex;
@@ -26,75 +26,82 @@ body {
 }
 .contenedorTarjeta {
   position: absolute;
-  background-color: rgba(245, 245, 220, 0.442);
+  background-color: rgba(0, 0, 0, 0.257);
   box-shadow: -5px 6px 19px 0px rgba(0, 0, 0, 0.77);
   -webkit-box-shadow: -5px 6px 19px 0px rgba(0, 0, 0, 0.77);
   -moz-box-shadow: -5px 6px 19px 0px rgba(0, 0, 0, 0.77);
   width: 360px;
   height: 730px;
 }
+
+.contenedorTarjeta span {
+  right: 50px;
+  top: 180px;
+  position: absolute;
+  font-size: 30px;
+  color: whitesmoke;
+}
+
 .contenedorTitulo {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 .presentacion {
-  color: aliceblue;
+  padding: 10px;
+  margin-top: 120px;
+  color: #fcfcfc;
+  font-size: 30px;
+  font-family: lora;
 }
 .titulo {
-  font-size: 30px;
-  color: #3b5725;
+  font-size: 70px;
+  color: #ffffff;
   position: sticky;
   top: 0;
   padding: 20px;
   /* text-shadow: 7px 3px 0px rgba(20, 33, 22, 0.526); */
   z-index: 101;
 }
-.flor img {
-  position: absolute;
-  top: 0;
-  width: 280px;
 
-  left: 60px;
-  z-index: 100;
-}
 .contenedorTarjeta2 {
   position: absolute;
-  background-color: rgba(245, 245, 220, 0.442);
+  background-color: rgba(239, 157, 76, 0.405);
   box-shadow: -5px 6px 19px 0px rgba(0, 0, 0, 0.77);
   -webkit-box-shadow: -5px 6px 19px 0px rgba(0, 0, 0, 0.77);
   -moz-box-shadow: -5px 6px 19px 0px rgba(0, 0, 0, 0.77);
-  width: 280px;
-  height: 630px;
+  width: 350px;
+  height: 730px;
+  margin-top: 800px;
+  z-index: 100;
 }
-/* .calendar img {
-  width: 200px;
-}
-.calendar img:hover {
-  width: 300px;
-} */
+
 .contenedorText-2 {
+  margin-top: 15px;
   padding: 10px;
-  color: #543f04;
+  color: #ffffff;
+  font-family: Lora;
+  font-size: 50px;
 }
-.hr {
-  background-color: black;
-  color: #000;
-}
+
 .datos {
   display: flex;
   margin: 10px;
   text-align: center;
   justify-content: center;
 }
-
+.contenedorBoton {
+  gap: 30px !important;
+}
 .botones img {
-  margin: 5px;
+  margin: 15px;
   padding: 5px;
   width: 50px;
 }
 .contenedorBoton img {
-  width: 40px;
+  padding: 10px;
+  width: 60px;
 }
 .contenedorBoton button {
+  margin: 20px;
   border: solid rgb(254, 214, 104) 1px;
   border-radius: 10px;
   background: #e0e0e000;
@@ -110,13 +117,21 @@ body {
   background: #e0e0e000;
   box-shadow: inset 20px 20px 60px #bebebe00, inset -20px -20px 60px #ffffffaa;
 }
-
+.dressCode-container {
+  border-radius: 10px;
+  display: none;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.786);
+  position: absolute;
+  top: 10px;
+}
 .fechaLugar {
   border-radius: 10px;
   display: none;
   padding: 20px;
-  background-color: rgba(3, 19, 3, 0.863);
+  background-color: rgba(0, 0, 0, 0.785);
   position: absolute;
+  top: 10px;
 }
 .fechaLugar img {
   width: 300px;
@@ -139,14 +154,16 @@ body {
   color: rgb(255, 255, 255);
 }
 .activo {
-  display: block;
+  display: block !important;
 }
+
 .fechaLugar2 {
   border-radius: 10px;
   display: none;
   padding: 20px;
-  background-color: rgba(3, 19, 3, 0.863);
+  background-color: rgba(5, 5, 5, 0.785);
   position: absolute;
+  top: 10px;
 }
 .fechaLugar2 img {
   width: 300px;
@@ -164,6 +181,15 @@ body {
   height: 50px;
   background-color: rgba(0, 0, 0, 0);
 }
+.cerrar3 {
+  border: 0px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0);
+}
 .cruz2 {
   font-size: 30px;
   color: rgb(255, 255, 255);
@@ -171,9 +197,6 @@ body {
 .horario {
   font-size: 35px;
   color: aliceblue;
-}
-.active {
-  display: block;
 }
 
 .codigoVestimenta {
@@ -194,13 +217,72 @@ body {
   font-size: 15px;
   text-decoration: none;
   border-radius: 10px;
-  color: rgb(116, 93, 3);
+  color: rgb(227, 119, 48);
   border: solid rgb(254, 214, 104) 1px;
 }
 .whapp i {
   font-size: 20px;
-  color: rgb(192, 174, 17);
+  color: rgb(192, 75, 17);
 }
 .musica {
   display: none;
+}
+.imgBody2 {
+  width: 400px;
+  height: 800px;
+  object-fit: fill;
+  backdrop-filter: blur(100px);
+}
+.imgBody {
+  width: 400px;
+  height: 800px;
+  object-fit: cover;
+}
+.cuentaRegresivaTitle {
+  font-size: 23px;
+}
+.contador {
+  background-color: rgba(238, 130, 238, 0.05);
+  margin-left: 14px;
+  color: whitesmoke;
+  font-family: lora;
+}
+.sol {
+  margin-top: 10px;
+  width: 50px;
+  height: 50px;
+  animation: spin 2.5s linear infinite;
+  -webkit-animation: spin 2.5s linear infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.lugar {
+  margin: 10px;
+}
+.mapita {
+  width: 300px;
+  height: 80px;
+}
+
+.textDress {
+  font-size: 18px;
+  padding: 7px;
+  font-family: Lora;
+  color: white;
+}
+/* .dressCode-container {
+  border-radius: 10px;
+  display: none;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.729);
+  position: absolute;
+} */
+.dressCode-container div img {
+  width: 100px;
 }
