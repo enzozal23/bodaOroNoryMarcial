@@ -1,10 +1,9 @@
-
 document.addEventListener('DOMContentLoaded', () => {
 
     //===
     // VARIABLES
     //===
-    const DATE_TARGET = new Date('06/29/2024 21:00:00'); // Cambia la fecha y hora objetivo
+    const DATE_TARGET = new Date('2025-05-31T21:30:00'); // Cambia la fecha y hora objetivo
     // DOM for render
     const SPAN_DAYS = document.querySelector('span#days');
     const SPAN_HOURS = document.querySelector('span#hours');
