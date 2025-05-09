@@ -162,8 +162,8 @@ z-index: 0;
 }
 
 .signature {
-  font-size: 60px;
-  margin-top: 60px;
+ font-size: 80px;
+  margin-top: 2em;
   color: #fffbe8;
   border-top: 1px solid #d9c6b0;
   padding-top: 18px;
